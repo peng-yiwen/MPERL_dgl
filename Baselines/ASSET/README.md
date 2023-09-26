@@ -1,6 +1,6 @@
 # Baseline: ASSET
 
-![Model](tearcher-student.png)
+![Model](teacher-student.png)
 
 This repository contains the **Pytorch** implementation of the model ASSET.
 
