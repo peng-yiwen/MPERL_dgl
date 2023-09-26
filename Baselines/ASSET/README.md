@@ -4,7 +4,7 @@
 
 This repository contains the **Pytorch** implementation of the model ASSET.
 
-- The original paper: **[ASSET: A Sem-supervised Approach for Entity Typing in Knowledge Graphs*.](https://dl.acm.org/doi/10.1145/3460210.3493563)**
+- The original paper: **[ASSET: A Sem-supervised Approach for Entity Typing in Knowledge Graphs.](https://dl.acm.org/doi/10.1145/3460210.3493563)**
 - The original TensorFlow implementation: **[ASSET](https://github.com/dice-group/ASSET)**
 
 ## Summary
@@ -18,13 +18,13 @@ This repository contains the **Pytorch** implementation of the model ASSET.
 **FB15kET:**
 
 ```markdown
-python ASSET.py --Dataset FB15kET --labeled_size 0.5 --patience 5
+python ASSET_pytorch.py --Dataset FB15kET --labeled_size 0.5 --patience 5
 ```
 
 **YAGO43kET:**
 
 ```markdown
-python ASSET.py --Dataset YAGO43kET --labeled_size 0.5 --patience 1
+python ASSET_pytorch.py --Dataset YAGO43kET --labeled_size 0.5 --patience 1
 ```
 
 **The default hyper-parameters in the experiments:**
