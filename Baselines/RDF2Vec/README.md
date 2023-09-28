@@ -17,11 +17,11 @@ We use the default settings
 - FB15k dataset: (best C=0.01)
 
 ```markdown
-python3 [run.py](http://run.py/) --dataset FB15k --max_depth 2 --n_walks 30
+python3 run.py --dataset FB15k --max_depth 2 --n_walks 30
 ```
 
 - YAGO43k dataset: (best C=0.1)
 
 ```markdown
-python3 [run.py](http://run.py/) --dataset YAGO43k --max_depth 2 --n_walks 30
+python3 run.py --dataset YAGO43k --max_depth 2 --n_walks 30
 ```
