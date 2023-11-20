@@ -122,7 +122,7 @@ def train_teacher_model(X_l, y_l, B_test, y_test, B_valid, y_valid, all_true, di
     best_loss = float('inf')
 
     for epoch in range(n_epochs):
-        print('Epoch:', epoch)
+        # print('Epoch:', epoch)
         # Training loop
         model.train()
         for batch_X, batch_y in train_loader:
