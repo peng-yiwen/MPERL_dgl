@@ -323,7 +323,7 @@ def evaluate(y_pred, y_true, all_true):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--Dataset', help='Dataset FB15k-ET or YAGO43k-ET.', type=str, default='FB15kET')
+    parser.add_argument('--Dataset', help='Dataset FB15kET or YAGO43kET.', type=str, default='FB15kET')
     parser.add_argument('--dim', help='Dimension of the hidden units.', type=int, default=128)
     parser.add_argument('--batch_size', help='Batch size.', type=int, default=128)
     parser.add_argument('--labeled_size', help='Size of labeled data.', type=float, default=0.01)
