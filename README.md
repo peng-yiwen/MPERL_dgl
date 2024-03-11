@@ -25,7 +25,7 @@ CUDA_VISIBLE_DEVICES=1 python3 run.py --model RGCP --dataset YAGO43kET \
 ```
 time python CI_Calc.py
 ```
-- The pre-trained best model are avaliable [here](https://drive.google.com/drive/folders/1zDGQv1gtDUq8ichbs_rE0VvjN8tWhaNV?usp=drive_link).
+- The pre-trained best models are avaliable [here](https://drive.google.com/drive/folders/1zDGQv1gtDUq8ichbs_rE0VvjN8tWhaNV?usp=drive_link). You can download them to this repository and run eval.sh directly.
 
 ## Baselines
 - Baselines are available in the folder /Baseline, while R-GCN and CompGCN are adapted from this [repo](https://github.com/CCIIPLab/CET).
