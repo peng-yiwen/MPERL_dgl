@@ -17,7 +17,7 @@ CUDA_VISIBLE_DEVICES=1 python3 run.py --model RGCP --dataset FB15kET \
 # YAGO43kET
 CUDA_VISIBLE_DEVICES=1 python3 run.py --model RGCP --dataset YAGO43kET \
 --load_ET --load_KG --neighbor_sampling --neighbor_num 35 --hidden_dim 100 \
---lr 0.0001 --lr_step 700 --train_batch_size 16 --cuda --num_layers 2 --num_bases 40 --selfloop --lambda_p 0.2 --drop 0.2 --l2 5e-4
+--lr 0.0001 --lr_step 600 --train_batch_size 16 --cuda --num_layers 2 --num_bases 40 --selfloop --lambda_p 0.2 --drop 0.2 --l2 5e-4
 ```
 ### Note
 - Results depend on random seed and will vary between re-runs.
