@@ -14,6 +14,8 @@ We use the default settings
 
 ## How to run:
 
+The model is already tested on CPU nodes equipped with 128GB of memory. The ultimate optimal configurations are as follows:
+
 - FB15k dataset: (best C=0.01)
 
 ```markdown
