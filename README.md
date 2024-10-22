@@ -1,5 +1,5 @@
-# R-GCP_dgl
-This repository provides the source code of **Relational-Graph Convolutional PonderNet (R-GCP)** for Entity Classification in Knowledge Graphs on FB15kET and YAGO43kET datasets. The model R-GCP is implemented using **[DGL](https://github.com/dmlc/dgl)** library.
+# MPERL_dgl
+This repository provides the source code of **Markov Process-Based Graph Convolutional Networks (MPERL)** for Entity Classification in Knowledge Graphs on **FB15kET** and **YAGO43kET** datasets. The model R-GCP is implemented using **[DGL](https://github.com/dmlc/dgl)** library.
 
 ## Setup
 To run this repository, you must install the following dependencies first:
